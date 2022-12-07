@@ -98,3 +98,9 @@ A script is essentially a list of instructions recorded with each transaction th
 [https://github.com/matter-labs/zinc](https://github.com/matter-labs/zinc)
 
 Zinc is an emerging framework for developing smart contracts and SNARK circuits on the zkSync platform.
+
+# YUL
+
+[https://github.com/ethereum/yul-isabelle](https://github.com/ethereum/yul-isabelle)
+
+The Yul language is designed to be integrated with a machine language, such that Yul captures control-flow and variable-assignment, and the machine language's primitives capture the remaining functionality.
