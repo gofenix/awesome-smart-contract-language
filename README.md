@@ -72,14 +72,29 @@ StarkNet uses the **Cairo** programming language both for its infrastructure a
 
 Empowering everyone to build reliable and efficient software.
 
-Solana-Rust
-
-[https://docs.solana.com/developing/on-chain-programs/developing-rust](https://docs.solana.com/developing/on-chain-programs/developing-rust)
-
-Near-Rust
+- [Solana-Rust](https://docs.solana.com/developing/on-chain-programs/developing-rust)
+- [CosmWasm](https://cosmwasm.com/)
+- [iotex](https://github.com/iotexproject/iotex-core)
 
 # Motoko
 
 [https://github.com/dfinity/motoko](https://github.com/dfinity/motoko)
 
 A safe, simple, actor-based programming language for authoring [Internet Computer](https://internetcomputer.org/) (IC) canister smart contracts.
+
+# BitcoinScript
+
+[https://en.bitcoin.it/wiki/Script](https://en.bitcoin.it/wiki/Script)
+
+Bitcoin uses a scripting system for transactions. Forth-like, Script is simple, stack-based, and processed from left to right. It is intentionally not Turing-complete, with no loops.
+
+A script is essentially a list of instructions recorded with each transaction that describe how the next person wanting to spend the Bitcoins being transferred can gain access to them. The script for a typical Bitcoin transfer to destination Bitcoin address D simply encumbers future spending of the bitcoins with two things: the spender must provide
+
+1. a public key that, when hashed, yields destination address D embedded in the script, and
+2. a signature to prove ownership of the private key corresponding to the public key just provided.
+
+# Zinc
+
+[https://github.com/matter-labs/zinc](https://github.com/matter-labs/zinc)
+
+Zinc is an emerging framework for developing smart contracts and SNARK circuits on the zkSync platform.
